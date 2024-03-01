@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Universel</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="max-w-screen-lg mx-auto my-10">
+    <header>
+        <section>
+            <div class="flex flex-col text-center justify-center items-center">
+                <div>
+                    <h1 class="text-3xl font-bold mb-5">AI Universe Hub</h1>
+                    <button class="py-3 px-5 rounded text-white font-semibold bg-[#EB5757] hover:bg-none">Accent</button>
+                </div>
+            </div>
+        </section>
+    </header>
+    <main>
+        <section>
+            <div id="card-container" class="grid grid-cols-1 md:grid-cols-2 mt-5 lg:grid-cols-3 gap-3">
+                
+            </div>
+            <div id="show-all-btn" class="text-center mt-4">
+                <button onclick="showAllBtnHandler()" class="py-2 px-4 rounded text-white font-semibold bg-orange-600">Show All</button>
+                <!-- You can open the modal using ID.showModal() method -->
+                <div id="show-details">
+                    
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
